@@ -16,6 +16,11 @@ body {
     font-size: x-large;
 }
 
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
 h1, h2, h3, h4, p {
     text-shadow: 2px 2px 6px black;
 }
@@ -24,21 +29,14 @@ h1, h2, h3, h4, p {
     width: 300px;
     border-radius: 50%;
     border: 6px solid gray;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
-#name {
+#name, #status {
     background: gray;
-    padding: 3px 15px;
-    border-radius: 5px;
-    margin: 5px 0 10px 0;
-}
-
-#status {
-    margin: 0;
-    background: gray;
-    padding: 3px 15px;
-    border-radius: 5px;
+    padding: 0 15px;
+    border-radius: 10px;
+    margin:10px;
 }
 
 #header {
@@ -60,7 +58,7 @@ h1, h2, h3, h4, p {
 }
 
 .gift-img {
-    margin: 20px auto;
+    margin: 0 auto 30px auto;
     max-width: 400px;
     height: 400px;
     border: 6px inset purple;
